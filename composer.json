@@ -1,0 +1,19 @@
+{
+    "name": "overbeck\/mallRpc",
+    "description": "mallRpcInterface",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "shuqingzai",
+            "email": "929024757@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Overbeck\\MallRpc\\": "./src/"
+        }
+    }
+}
