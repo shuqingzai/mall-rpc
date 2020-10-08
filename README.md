@@ -6,7 +6,7 @@
 ## 安装
 
 ```shell
-$ composer require overbeck/mallRpc -vvv
+$ composer require overbeck/mall-rpc -vvv
 ```
 
 ## 说明

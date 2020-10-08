@@ -5,7 +5,6 @@ namespace Overbeck\MallRpc;
 
 /**
  * 商品服务
- *
  * Interface GoodsServiceInterface
  *
  * @package Overbeck\MallRpc
@@ -20,4 +19,12 @@ interface GoodsServiceInterface
      * @author ShuQingZai<929024757@qq.com>  2020/10/8 9:32
      */
     public function getList(): array;
+
+    /**
+     * 详情
+     *
+     * @return array
+     * @author ShuQingZai<929024757@qq.com>  2020/10/8 11:29
+     */
+    public function detail(): array;
 }
